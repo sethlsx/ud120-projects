@@ -36,6 +36,13 @@ pred = clf.predict(features_test)
 print 'The prediction time is: {}'.format(round(time()-time0,3)), 's'
 acc = accuracy_score(labels_test, pred)
 print "The accuracy of decision tree method is: {}".format(acc)
+
+#print the numbers of features of the data
+
+print 'There are {} features in the original data.'.format(len(features_train[0]))
+
+
+
 #########################################################
 
 
